@@ -1,0 +1,138 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.main {
+  background-color: whitesmoke;
+}
+.title {
+  font-size: 5vw;
+  text-align: center;
+  text-shadow: 2px 2px 6px rgb(129, 129, 129);
+  text-transform: capitalize;
+  /* background-color: cornflowerblue; */
+}
+.searchcontainer {
+  /* background-color: violet; */
+  text-align: center;
+}
+
+.form input {
+  padding-left: 20px;
+  margin: 10px 10px;
+  border: none;
+  width: 200px;
+  height: 35px;
+  box-shadow: 2px 2px 2px 2px rgb(207, 207, 207);
+}
+.form {
+  /* background-color:yellow; */
+  padding: 10px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 2vw auto;
+  padding-bottom: 30px;
+}
+
+button {
+  padding: 0px 15px;
+  font-size: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(207, 207, 207);
+  background-color: white;
+}
+button:hover {
+  box-shadow: 0px 0px 0px 0px rgb(207, 207, 207);
+}
+button:active {
+  background-color: black;
+  color: white;
+}
+
+.displaytitle {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 30px;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgba(195, 198, 199, 0.466);
+  border-radius: 15px;
+  margin: 10px 20px;
+  padding: 10px;
+  justify-content: center;
+}
+.left {
+  width: 30%;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgb(209, 207, 207);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
+.left img {
+  /* border-radius:15px; */
+  box-shadow: 2px 2px 2px 2px rgb(209, 207, 207);
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+}
+.left h4 {
+  text-shadow: 2px 2px 5px rgb(117, 34, 34);
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+.right {
+  width: 70%;
+  margin: 20px 0px;
+}
+.upperRight {
+  width: 100%;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgb(209, 207, 207);
+  justify-content: space-around;
+  align-items: center;
+  height: 40%;
+}
+.item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item span {
+  font-size: 30px;
+  font-weight: 900;
+}
+.item h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.lowerRight {
+  display: flex;
+  font-size: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgb(209, 207, 207);
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+  .right {
+    width: 500px;
+  }
+  .left {
+    width: 200px;
+  }
+}
