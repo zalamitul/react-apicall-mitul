@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zalamitul/react-apicall-mitul.git/static/css/main.ec6bd34a.css",
+    "main.js": "/zalamitul/react-apicall-mitul.git/static/js/main.ae70f391.js",
+    "index.html": "/zalamitul/react-apicall-mitul.git/index.html",
+    "main.ec6bd34a.css.map": "/zalamitul/react-apicall-mitul.git/static/css/main.ec6bd34a.css.map",
+    "main.ae70f391.js.map": "/zalamitul/react-apicall-mitul.git/static/js/main.ae70f391.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec6bd34a.css",
+    "static/js/main.ae70f391.js"
+  ]
+}
