@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-apicall-mitul/static/css/main.ec6bd34a.css",
+    "main.js": "/react-apicall-mitul/static/js/main.ae70f391.js",
+    "index.html": "/react-apicall-mitul/index.html",
+    "main.ec6bd34a.css.map": "/react-apicall-mitul/static/css/main.ec6bd34a.css.map",
+    "main.ae70f391.js.map": "/react-apicall-mitul/static/js/main.ae70f391.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec6bd34a.css",
+    "static/js/main.ae70f391.js"
+  ]
+}
